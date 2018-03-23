@@ -1,0 +1,13 @@
+void setup() {
+  size(1500, 900);
+  background(#04B1CE);
+  noFill();
+}
+
+void draw() {
+  strokeWeight(random(3, 1));
+  stroke(random(255), random(255), random(255));
+  float rainbow_size = random(2, 27000);
+  ellipse(750, 450, rainbow_size, rainbow_size);
+}
+
